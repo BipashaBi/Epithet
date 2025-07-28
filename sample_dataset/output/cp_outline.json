@@ -1,0 +1,1695 @@
+{
+  "title": "Credits",
+  "headings": [
+    {
+      "level": "H1",
+      "name": "Beginning C++ Programming",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "name": "Credits",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "name": "About the Author",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "name": "About the Reviewer",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "name": "Customer Feedback",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "name": "Table of Contents",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Customer Feedback",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Preface",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 1: Starting with C++",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "What will you find in this chapter?",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "What is C++?",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Installing Visual C++",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Setting up",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Downloading the installation files",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Installing Visual Studio",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Registering with Microsoft",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Examining C++ projects",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Compilers",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Linking the code",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Source files",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "The preprocessor and symbols",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Dependencies",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Writing a simple project",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "The project structure",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Creating the precompiled header",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Creating the main file",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Using input and output streams",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Using time functions",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "Building the executable",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "[ ii ]",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Testing the code",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Changing the project",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 2: Understanding Language Features",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Writing C++",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Using white space",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Formatting code",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Writing statements",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Using types and variables",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Using constants and literals",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Using namespaces",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "C++ scoping of variables",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Using operators",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Exploring the built-in operators",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Controlling execution flow",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Using conditional statements",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Selecting",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Looping",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Jumping",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Using C++ language features",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 3: Exploring C++ Types",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Exploring built-in types",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Integers",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "[ iii ]",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Floating point types",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Characters and strings",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Boolean",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "void",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Initializers",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Default values",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Declarations without a type",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Storage classes",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Using type aliases",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Aggregating data in record types",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Accessing runtime type information",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Determining type limits",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Converting between types",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Type conversions",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Casting",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Using C++ types",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 4: Working with Memory, Arrays, and Pointers",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Using memory in C++",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "[ iv ]",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Using C++ pointer syntax",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Using null pointers",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Types of memory",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Pointer arithmetic",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Using arrays",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Function parameters",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Multidimensional arrays",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Passing multidimensional arrays to functions",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Using arrays of characters",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Using pointers in C++",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Accessing out of bounds",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Pointers to deallocated memory",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Converting pointers",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Allocating memory in code",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Allocating individual objects",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Allocating arrays of objects",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Handling failed allocations",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Using other versions of the new operator",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Memory lifetime",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "The Windows SDK and pointers",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Memory and the C++ Standard Library",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Standard Library arrays",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Constant references",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Returning references",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Temporaries and references",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "The rvalue references",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Ranged for and references",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Using pointers in practice",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Creating the project",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Adding a task object to the list",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Deleting the task list",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Iterating the task list",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Inserting items",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "[ v ]",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 5: Using Functions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Defining C++ functions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Declaring and defining functions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Specifying linkage",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Inlining",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Determining the return type",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Naming the function",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Function parameters",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Specifying exceptions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Function body",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Using function parameters",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Passing Initializer lists",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Using default parameters",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Variable number of parameters",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Function features",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Call stack",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Specifying calling conventions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Using recursion",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Overloading functions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Functions and scope",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Deleted functions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Passing by value and passing by reference",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Designing functions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Pre- and post-conditions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Using invariants",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Function pointers",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Remember the parentheses!",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Declaring function pointers",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Using function pointers",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Templated functions",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Defining templates",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Using template parameter values",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Specialized templates",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Variadic templates",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "[ vi ]",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Overloaded operators",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Function objects",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Introducing lambda expressions",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Using functions in C++",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 6: Classes",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Writing classes",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Reviewing structures",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Defining classes",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Defining class behavior",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Creating objects",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Declaring static members",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Nested classes",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Accessing const objects",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Using objects with pointers",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Getting pointers to object members",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Operator overloading",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Defining function classes",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Defining conversion operators",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Managing resources",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Writing wrapper classes",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Using smart pointers",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Templates",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "[ vii ]",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Using classes",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 7: Introduction to Object-Orientated Programming",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Inheritance and composition",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Inheriting from a class",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Overriding methods and hiding names",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Using pointers and references",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Access levels",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Inheritance access levels",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Multiple inheritance",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Introducing polymorphism",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Virtual methods",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Virtual method tables",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Multiple inheritance and virtual method tables",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Virtual methods, construction, and destruction",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Containers and virtual methods",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Friends and inheritance",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Override and final",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Virtual inheritance",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Abstract classes",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Obtaining type information",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Smart pointers and virtual methods",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Interfaces",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Class relationships",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Using mixin classes",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Using polymorphism",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 8: Using the Standard Library Containers",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Working with pairs and tuples",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Containers",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Sequence containers",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Associative containers",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "[ viii ]",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Special purpose containers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Using iterators",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Algorithms",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Iteration of items",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Getting information",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Comparing containers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Changing Items",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Finding Items",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Sorting items",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Using the numeric libraries",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Compile time arithmetic",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Complex numbers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Using the Standard Library",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 9: Using Strings",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Using the string class as a container",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Getting information about a string",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Altering strings",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Searching strings",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Internationalization",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Using facets",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Strings and numbers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Converting strings to numbers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Converting numbers to strings",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Using stream classes",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Outputting floating point numbers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Outputting integers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Outputting time and money",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Converting numbers to strings using streams",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Reading numbers from strings using streams",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Using regular expressions",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Defining regular expressions",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Standard Library classes",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "[ ix ]",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Using strings",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Creating the project",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Processing header subitems",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Chapter 10: Diagnostics and Debugging",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Preparing your code",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Invariants and conditions",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Conditional compilation",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Using pragmas",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Adding informational messages",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Compiler switches for debugging",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Pre-processor symbols",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Producing diagnostic messages",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Using asserts",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Application termination",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Error values",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Obtaining message descriptions",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Using the Message Compiler",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "C++ exceptions",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Exception specifications",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "C++ exception syntax",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Standard exception classes",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Catching exceptions by type",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Function try blocks",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "System errors",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Nested exceptions",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Structured Exception Handling",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Compiler exception switches",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Mixing C++ and SEH exception handling",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Writing exception-safe classes",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Index",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "name": "Preface",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "name": "What this book covers",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "[ 2 ]",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "name": "What you need for this book",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "name": "Who this book is for",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "name": "[ 3 ]",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "name": "Conventions",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "name": "[ 4 ]",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "name": "Reader feedback",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "name": "Customer support",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "name": "Downloading the example code",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "name": "[ 5 ]",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "name": "Downloading the color images of this book",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "name": "Errata",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "name": "Piracy",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "name": "[ 6 ]",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "name": "Questions",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "name": "Starting with C++",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "name": "[ 8 ]",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "name": "What will you find in this chapter?",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "name": "What is C++?",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "name": "[ 9 ]",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "name": "Installing Visual C++",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "name": "Setting up",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "name": "[ 10 ]",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "name": "Downloading the installation files",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "name": "Installing Visual Studio",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "name": "[ 11 ]",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "[ 12 ]",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "name": "[ 13 ]",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "name": "[ 14 ]",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "name": "[ 15 ]",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "name": "Registering with Microsoft",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "name": "[ 16 ]",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "name": "Examining C++ projects",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "name": "[ 17 ]",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "name": "Compilers",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "name": "[ 18 ]",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "name": "Linking the code",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "name": "Source files",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "name": "[ 19 ]",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "name": "A simple example",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "name": "[ 20 ]",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "name": "[ 21 ]",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "name": "Creating source files",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "name": "[ 22 ]",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "name": "[ 23 ]",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "name": "Compiling the code",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "name": "[ 24 ]",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "name": "[ 25 ]",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "name": "Passing parameters between the command-line and an",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "name": "executable",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "name": "[ 26 ]",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "name": "[ 27 ]",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "name": "[ 28 ]",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "name": "The preprocessor and symbols",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "name": "Defining constants",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "name": "[ 29 ]",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "name": "[ 30 ]",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "name": "[ 31 ]",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "name": "Using macros",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "name": "Using symbols",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "name": "[ 32 ]",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "name": "[ 33 ]",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "name": "Using pragmas",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "name": "[ 93 ]",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "name": "[ 95 ]",
+      "page": 49
+    },
+    {
+      "level": "H1",
+      "name": "Summary",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "name": "[ 183 ]",
+      "page": 50
+    }
+  ]
+}

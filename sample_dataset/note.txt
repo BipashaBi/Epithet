@@ -1,0 +1,1 @@
+Every .PDF file here gives output only if its called individually in docker images and containers (pdf-processor:latest).

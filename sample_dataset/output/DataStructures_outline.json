@@ -1,0 +1,5635 @@
+{
+  "title": "Programming:AGeneral",
+  "headings": [
+    {
+      "level": "H2",
+      "name": "FourthEdition",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "name": "DataStructures",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "name": "andAlgorithm",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "name": "Analysisin",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "This page intentionally left blank",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "name": "FourthEdition",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "name": "DataStructures",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "name": "andAlgorithm",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "name": "Analysisin",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "name": "MarkAllenWeiss",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "name": "FloridaInternationalUniversity",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "name": "Tomykind,brilliant,andinspiringSara.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "name": "This page intentionally left blank",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "name": "CONTENTS",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "name": "Chapter1Programming:AGeneralOverview",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "What’sThisBookAbout?",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "MathematicsReview",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.2.1",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Exponents",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.2.2",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Logarithms",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.2.3",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Series",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.2.4",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "ModularArithmetic",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.2.5",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Word",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "ABriefIntroductiontoRecursion",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Classes",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.4.1",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Basic",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Syntax",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.4.2",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "ExtraConstructorSyntaxandAccessors",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.4.3",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "SeparationofInterfaceandImplementation",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.4.4",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Details",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.5.1",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Pointers",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.5.2",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Lvalues,Rvalues,andReferences",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.5.3",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "ParameterPassing",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.5.4",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "ReturnPassing",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.5.5",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.5.6",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "TheBig-Five:Destructor,CopyConstructor,MoveConstructor,Copy",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Assignment",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": ",MoveAssignment",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.5.7",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "C-styleArraysandStrings",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Templates",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.6.1",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "FunctionTemplates",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.6.2",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "ClassTemplates",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.6.3",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": ",andanExample",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.6.4",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "FunctionObjects",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.6.5",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "SeparateCompilationofClassTemplates",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "UsingMatrices",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.7.1",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "TheDataMembers,Constructor,andBasicAccessors",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.7.2",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "1.7.3",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Big-Five",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "name": "Chapter2AlgorithmAnalysis",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "MathematicalBackground",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Model",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "WhattoAnalyze",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Running-TimeCalculations",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "2.4.1",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "ASimpleExample",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "2.4.2",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "GeneralRules",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "2.4.3",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "SolutionsfortheMaximumSubsequence",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "SumProblem",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "2.4.4",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "LogarithmsintheRunningTime",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "2.4.5",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "LimitationsofWorst-CaseAnalysis",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "name": "Chapter3Lists,Stacks,andQueues",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "AbstractDataTypes(ADTs)",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "TheListADT",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.2.1",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "SimpleArrayImplementationofLists",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.2.2",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "SimpleLinkedLists",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "intheSTL",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.3.1",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Iterators",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.3.2",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Example:Using",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "onaList",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.3.3",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Implementationof",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Implementationof",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "TheStackADT",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.6.1",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "StackModel",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.6.2",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "ImplementationofStacks",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.6.3",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Applications",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "TheQueueADT",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.7.1",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "QueueModel",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.7.2",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "ArrayImplementationofQueues",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "3.7.3",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "ApplicationsofQueues",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "name": "Chapter4Trees",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Preliminaries",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.1.1",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "ImplementationofTrees",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.1.2",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "TreeTraversalswithanApplication",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "BinaryTrees",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.2.1",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Implementation",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.2.2",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "AnExample:ExpressionTrees",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "TheSearchTreeADT—BinarySearchTrees",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.3.1",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.3.2",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.3.3",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.3.4",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.3.5",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "DestructorandCopyConstructor",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.3.6",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Average-CaseAnalysis",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "AVLTrees",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.4.1",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "SingleRotation",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.4.2",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "DoubleRotation",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "SplayTrees",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.5.1",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "ASimpleIdea(ThatDoesNotWork)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.5.2",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Splaying",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "TreeTraversals(Revisited)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "B-Trees",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "SetsandMapsintheStandardLibrary",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.8.1",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Sets",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.8.2",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Maps",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.8.3",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Implementationof",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "4.8.4",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "AnExampleThatUsesSeveralMaps",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "name": "Chapter5Hashing",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "GeneralIdea",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "HashFunction",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "SeparateChaining",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "HashTableswithoutLinkedLists",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "5.4.1",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "LinearProbing",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "5.4.2",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "QuadraticProbing",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "5.4.3",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "DoubleHashing",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Rehashing",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "HashTablesintheStandardLibrary",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "HashTableswithWorst-Case",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "(1)Access",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "5.7.1",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "PerfectHashing",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "5.7.2",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "CuckooHashing",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "5.7.3",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "HopscotchHashing",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "UniversalHashing",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "ExtendibleHashing",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "name": "Chapter6PriorityQueues(Heaps)",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Model",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "SimpleImplementations",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "BinaryHeap",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.3.1",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "StructureProperty",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.3.2",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Heap-OrderProperty",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.3.3",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "BasicHeapOperations",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.3.4",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "OtherHeapOperations",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "ApplicationsofPriorityQueues",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.4.1",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "TheSelectionProblem",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.4.2",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "EventSimulation",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "-Heaps",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "LeftistHeaps",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.6.1",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "LeftistHeapProperty",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.6.2",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "LeftistHeapOperations",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "SkewHeaps",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "BinomialQueues",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.8.1",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "BinomialQueueStructure",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.8.2",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "BinomialQueueOperations",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "6.8.3",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "ImplementationofBinomialQueues",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "PriorityQueuesintheStandardLibrary",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "name": "Chapter7Sorting",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Preliminaries",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "InsertionSort",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "7.2.1",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "TheAlgorithm",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "7.2.2",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "STLImplementationofInsertionSort",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "7.2.3",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "AnalysisofInsertionSort",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "ALowerBoundforSimpleSortingAlgorithms",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "Shellsort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.4.1",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Worst-CaseAnalysisofShellsort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Heapsort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.5.1",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "AnalysisofHeapsort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Mergesort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.6.1",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "AnalysisofMergesort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Quicksort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.7.1",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "PickingthePivot",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.7.2",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "PartitioningStrategy",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.7.3",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "SmallArrays",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.7.4",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "ActualQuicksortRoutines",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.7.5",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "AnalysisofQuicksort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.7.6",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "ALinear-Expected-TimeAlgorithmforSelection",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "AGeneralLowerBoundforSorting",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.8.1",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "DecisionTrees",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Decision-TreeLowerBoundsforSelectionProblems",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.10AdversaryLowerBounds",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.11Linear-TimeSorts:BucketSortandRadixSort",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.12ExternalSorting",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.12.1WhyWeNeedNewAlgorithms",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.12.2ModelforExternalSorting",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.12.3TheSimpleAlgorithm",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.12.4MultiwayMerge",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.12.5PolyphaseMerge",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "7.12.6ReplacementSelection",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "name": "Chapter8TheDisjointSetsClass",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "EquivalenceRelations",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "TheDynamicEquivalenceProblem",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "BasicDataStructure",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "SmartUnionAlgorithms",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "PathCompression",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "WorstCaseforUnion-by-RankandPathCompression",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "8.6.1",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "SlowlyGrowingFunctions",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "8.6.2",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "AnAnalysisbyRecursiveDecomposition",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "8.6.3",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "log*",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": ")Bound",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "8.6.4",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "))Bound",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "AnApplication",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "name": "Chapter9GraphAlgorithms",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Deﬁnitions",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.1.1",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "RepresentationofGraphs",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "TopologicalSort",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Shortest-PathAlgorithms",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.3.1",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "UnweightedShortestPaths",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.3.2",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Dijkstra’sAlgorithm",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.3.3",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "GraphswithNegativeEdgeCosts",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.3.4",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "AcyclicGraphs",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.3.5",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "All-PairsShortestPath",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.3.6",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "ShortestPathExample",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "NetworkFlowProblems",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.4.1",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "ASimpleMaximum-FlowAlgorithm",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "MinimumSpanningTree",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.5.1",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Prim’sAlgorithm",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.5.2",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Kruskal’sAlgorithm",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "ApplicationsofDepth-FirstSearch",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.6.1",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "UndirectedGraphs",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.6.2",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Biconnectivity",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.6.3",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "EulerCircuits",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.6.4",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "DirectedGraphs",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.6.5",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "FindingStrongComponents",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "IntroductiontoNP-Completeness",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.7.1",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Easyvs.Hard",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.7.2",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "TheClassNP",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "9.7.3",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "NP-CompleteProblems",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "name": "Chapter10AlgorithmDesignTechniques",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "10.1GreedyAlgorithms",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "10.1.1ASimpleSchedulingProblem",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "10.1.2HuffmanCodes",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "10.1.3ApproximateBinPacking",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "10.2DivideandConquer",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "10.2.1RunningTimeofDivide-and-ConquerAlgorithms",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "10.2.2Closest-PointsProblem",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "10.2.3TheSelectionProblem",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.2.4TheoreticalImprovementsforArithmeticProblems",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.3DynamicProgramming",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.3.1UsingaTableInsteadofRecursion",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.3.2OrderingMatrixMultiplications",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.3.3OptimalBinarySearchTree",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.3.4All-PairsShortestPath",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.4RandomizedAlgorithms",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.4.1Random-NumberGenerators",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.4.2SkipLists",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.4.3PrimalityTesting",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.5BacktrackingAlgorithms",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.5.1TheTurnpikeReconstructionProblem",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "10.5.2Games",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "name": "Chapter11AmortizedAnalysis",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.1AnUnrelatedPuzzle",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.2BinomialQueues",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.3SkewHeaps",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.4FibonacciHeaps",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.4.1CuttingNodesinLeftistHeaps",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.4.2LazyMergingforBinomialQueues",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.4.3TheFibonacciHeapOperations",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.4.4ProofoftheTimeBound",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "11.5SplayTrees",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "name": "Chapter12AdvancedDataStructures",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "name": "andImplementation",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "12.1Top-DownSplayTrees",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "12.2Red-BlackTrees",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "12.2.1Bottom-UpInsertion",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "12.2.2Top-DownRed-BlackTrees",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "12.2.3Top-DownDeletion",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "12.3Treaps",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "name": "12.4SufﬁxArraysandSufﬁxTrees",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "12.4.1SufﬁxArrays",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "12.4.2SufﬁxTrees",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "12.4.3Linear-TimeConstructionofSufﬁxArraysandSufﬁxTrees",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "12.5",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "-dTrees",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "12.6PairingHeaps",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "Summary",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "name": "AppendixASeparateCompilationof",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "name": "ClassTemplates",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "A.1EverythingintheHeader",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "A.2ExplicitInstantiation",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "name": "PREFACE",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "name": "Purpose/Goals",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "name": "Approach",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "name": "SummaryoftheMostSigniﬁcantChangesintheFourthEdition",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "name": "Overview",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "name": "References",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "name": "Supplements",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "name": "Acknowledgments",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "name": "Programming:AGeneral",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "name": "Overview",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "name": "1.1What’sThisBookAbout?",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "name": "1.2MathematicsReview",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "name": "1.2.1Exponents",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "name": "1.2.2Logarithms",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "name": "1.2.3Series",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "name": "1.2.4ModularArithmetic",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "name": "1.2.5The",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "name": "Word",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "ProofbyInduction",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "ProofbyCounterexample",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "name": "ProofbyContradiction",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "name": "1.3ABriefIntroductiontoRecursion",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "name": "PrintingOutNumbers",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "name": "RecursionandInduction",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "name": "1.4C",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "name": "Classes",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "name": "1.4.1Basic",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "name": "class",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "name": "Syntax",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "name": "1.4.2ExtraConstructorSyntaxandAccessors",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "name": "DefaultParameters",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "name": "InitializationList",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "name": "explicit",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "name": "Constructor",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "name": "ConstantMemberFunction",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "name": "1.4.3SeparationofInterfaceandImplementation",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "name": "PreprocessorCommands",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "name": "ScopeResolutionOperator",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "name": "SignaturesMustMatchExactly",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "name": "ObjectsAreDeclaredLikePrimitiveTypes",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "name": "1.4.4",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "name": "vector",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "name": "string",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "name": "1.5C",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "name": "Details",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "name": "1.5.1Pointers",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "name": "Declaration",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "name": "DynamicObjectCreation",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "name": "GarbageCollectionand",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "name": "delete",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "name": "AssignmentandComparisonofPointers",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "name": "AccessingMembersofanObjectthroughaPointer",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "name": "Address-ofOperator(&)",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "name": "1.5.2Lvalues,Rvalues,andReferences",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "name": "lvaluereferencesuse#1:aliasingcomplicatednames",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "name": "lvaluereferencesuse#2:range",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "name": "loops",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "name": "lvaluereferencesuse#3:avoidingacopy",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "name": "1.5.3ParameterPassing",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "name": "1.5.4ReturnPassing",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "name": "1.5.5",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "name": "std::swap",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "name": "std::move",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "name": "1.5.6TheBig-Five:Destructor,CopyConstructor,Move",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "name": "Constructor,CopyAssignment",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "name": "operator=",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "name": ",Move",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "name": "Assignment",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "name": "operator=",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "name": "Destructor",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "name": "CopyConstructorandMoveConstructor",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "name": "CopyAssignmentandMoveAssignment(",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "name": "operator=",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "name": "Defaults",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "name": "WhentheDefaultsDoNotWork",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "name": "1.5.7C-styleArraysandStrings",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "name": "1.6Templates",
+      "page": 55
+    },
+    {
+      "level": "H2",
+      "name": "1.6.1FunctionTemplates",
+      "page": 56
+    },
+    {
+      "level": "H2",
+      "name": "1.6.2ClassTemplates",
+      "page": 57
+    },
+    {
+      "level": "H2",
+      "name": "1.6.3",
+      "page": 58
+    },
+    {
+      "level": "H2",
+      "name": "Object",
+      "page": 58
+    },
+    {
+      "level": "H2",
+      "name": "Comparable",
+      "page": 58
+    },
+    {
+      "level": "H2",
+      "name": ",andanExample",
+      "page": 58
+    },
+    {
+      "level": "H2",
+      "name": "1.6.4FunctionObjects",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "name": "1.6.5SeparateCompilationofClassTemplates",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "name": "1.7UsingMatrices",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "name": "1.7.1TheDataMembers,Constructor,andBasic",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "name": "Accessors",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "name": "1.7.2",
+      "page": 64
+    },
+    {
+      "level": "H2",
+      "name": "operator[]",
+      "page": 64
+    },
+    {
+      "level": "H2",
+      "name": "1.7.3Big-Five",
+      "page": 65
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 65
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 65
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 67
+    },
+    {
+      "level": "H3",
+      "name": "This page intentionally left blank",
+      "page": 69
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "name": "AlgorithmAnalysis",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "name": "2.1MathematicalBackground",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "name": "2.2Model",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "name": "2.3WhattoAnalyze",
+      "page": 73
+    },
+    {
+      "level": "H3",
+      "name": "Running Time",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "name": "Input Size (",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "name": "Linear",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "name": "Quadratic",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "name": "Cubic",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "name": "Running Time",
+      "page": 76
+    },
+    {
+      "level": "H3",
+      "name": "10002000300040005000600070008000900010000",
+      "page": 76
+    },
+    {
+      "level": "H3",
+      "name": "Input Size (",
+      "page": 76
+    },
+    {
+      "level": "H3",
+      "name": "Linear",
+      "page": 76
+    },
+    {
+      "level": "H3",
+      "name": "Quadratic",
+      "page": 76
+    },
+    {
+      "level": "H3",
+      "name": "Cubic",
+      "page": 76
+    },
+    {
+      "level": "H1",
+      "name": "2.4Running-TimeCalculations",
+      "page": 76
+    },
+    {
+      "level": "H2",
+      "name": "2.4.1ASimpleExample",
+      "page": 77
+    },
+    {
+      "level": "H2",
+      "name": "2.4.2GeneralRules",
+      "page": 77
+    },
+    {
+      "level": "H2",
+      "name": "2.4.3SolutionsfortheMaximumSubsequence",
+      "page": 79
+    },
+    {
+      "level": "H2",
+      "name": "SumProblem",
+      "page": 79
+    },
+    {
+      "level": "H2",
+      "name": "2.4.4LogarithmsintheRunningTime",
+      "page": 85
+    },
+    {
+      "level": "H3",
+      "name": "BinarySearch",
+      "page": 86
+    },
+    {
+      "level": "H3",
+      "name": "Euclid’sAlgorithm",
+      "page": 87
+    },
+    {
+      "level": "H3",
+      "name": "Exponentiation",
+      "page": 88
+    },
+    {
+      "level": "H2",
+      "name": "2.4.5LimitationsofWorst-CaseAnalysis",
+      "page": 89
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 89
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 90
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 95
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "name": "Lists,Stacks,andQueues",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "name": "3.1AbstractDataTypes(ADTs)",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "name": "3.2TheListADT",
+      "page": 97
+    },
+    {
+      "level": "H2",
+      "name": "3.2.1SimpleArrayImplementationofLists",
+      "page": 97
+    },
+    {
+      "level": "H2",
+      "name": "3.2.2SimpleLinkedLists",
+      "page": 98
+    },
+    {
+      "level": "H3",
+      "name": "first",
+      "page": 99
+    },
+    {
+      "level": "H3",
+      "name": "last",
+      "page": 99
+    },
+    {
+      "level": "H2",
+      "name": "vector",
+      "page": 99
+    },
+    {
+      "level": "H2",
+      "name": "list",
+      "page": 99
+    },
+    {
+      "level": "H1",
+      "name": "intheSTL",
+      "page": 99
+    },
+    {
+      "level": "H2",
+      "name": "3.3.1Iterators",
+      "page": 101
+    },
+    {
+      "level": "H3",
+      "name": "GettinganIterator",
+      "page": 101
+    },
+    {
+      "level": "H3",
+      "name": "IteratorMethods",
+      "page": 101
+    },
+    {
+      "level": "H3",
+      "name": "ContainerOperationsThatRequireIterators",
+      "page": 102
+    },
+    {
+      "level": "H2",
+      "name": "3.3.2Example:Using",
+      "page": 102
+    },
+    {
+      "level": "H2",
+      "name": "erase",
+      "page": 102
+    },
+    {
+      "level": "H2",
+      "name": "onaList",
+      "page": 102
+    },
+    {
+      "level": "H2",
+      "name": "3.3.3",
+      "page": 103
+    },
+    {
+      "level": "H2",
+      "name": "const_iterator",
+      "page": 103
+    },
+    {
+      "level": "H1",
+      "name": "3.4Implementationof",
+      "page": 105
+    },
+    {
+      "level": "H2",
+      "name": "vector",
+      "page": 105
+    },
+    {
+      "level": "H1",
+      "name": "3.5Implementationof",
+      "page": 110
+    },
+    {
+      "level": "H2",
+      "name": "list",
+      "page": 110
+    },
+    {
+      "level": "H3",
+      "name": "head",
+      "page": 111
+    },
+    {
+      "level": "H3",
+      "name": "tail",
+      "page": 111
+    },
+    {
+      "level": "H3",
+      "name": "head",
+      "page": 112
+    },
+    {
+      "level": "H3",
+      "name": "tail",
+      "page": 112
+    },
+    {
+      "level": "H3",
+      "name": "prev",
+      "page": 119
+    },
+    {
+      "level": "H3",
+      "name": ". . .",
+      "page": 120
+    },
+    {
+      "level": "H3",
+      "name": ". . .",
+      "page": 120
+    },
+    {
+      "level": "H1",
+      "name": "3.6TheStackADT",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "name": "3.6.1StackModel",
+      "page": 122
+    },
+    {
+      "level": "H3",
+      "name": "push",
+      "page": 122
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "name": "3.6.2ImplementationofStacks",
+      "page": 123
+    },
+    {
+      "level": "H3",
+      "name": "LinkedListImplementationofStacks",
+      "page": 123
+    },
+    {
+      "level": "H3",
+      "name": "ArrayImplementationofStacks",
+      "page": 123
+    },
+    {
+      "level": "H2",
+      "name": "3.6.3Applications",
+      "page": 123
+    },
+    {
+      "level": "H3",
+      "name": "BalancingSymbols",
+      "page": 123
+    },
+    {
+      "level": "H3",
+      "name": "PostﬁxExpressions",
+      "page": 124
+    },
+    {
+      "level": "H3",
+      "name": "topOfStack",
+      "page": 125
+    },
+    {
+      "level": "H3",
+      "name": "topOfStack",
+      "page": 125
+    },
+    {
+      "level": "H3",
+      "name": "topOfStack",
+      "page": 125
+    },
+    {
+      "level": "H3",
+      "name": "topOfStack",
+      "page": 125
+    },
+    {
+      "level": "H3",
+      "name": "topOfStack",
+      "page": 126
+    },
+    {
+      "level": "H3",
+      "name": "topOfStack",
+      "page": 126
+    },
+    {
+      "level": "H3",
+      "name": "topOfStack",
+      "page": 126
+    },
+    {
+      "level": "H3",
+      "name": "topOfStack",
+      "page": 126
+    },
+    {
+      "level": "H3",
+      "name": "InﬁxtoPostﬁxConversion",
+      "page": 127
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "abc*+",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "abc*+d",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "abc*+de",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 128
+    },
+    {
+      "level": "H3",
+      "name": "abc*+de*f",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "abc*+de*f+",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "abc*+de*f+g",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "abc*+de*f+g*+",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "Output",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "Stack",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "name": "FunctionCalls",
+      "page": 129
+    },
+    {
+      "level": "H1",
+      "name": "3.7TheQueueADT",
+      "page": 131
+    },
+    {
+      "level": "H2",
+      "name": "3.7.1QueueModel",
+      "page": 132
+    },
+    {
+      "level": "H2",
+      "name": "3.7.2ArrayImplementationofQueues",
+      "page": 132
+    },
+    {
+      "level": "H3",
+      "name": "front",
+      "page": 132
+    },
+    {
+      "level": "H3",
+      "name": "back",
+      "page": 132
+    },
+    {
+      "level": "H3",
+      "name": "enqueue",
+      "page": 132
+    },
+    {
+      "level": "H3",
+      "name": "Queue",
+      "page": 132
+    },
+    {
+      "level": "H3",
+      "name": "dequeue",
+      "page": 132
+    },
+    {
+      "level": "H3",
+      "name": "front",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "Initial state",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "back",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "front",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "back",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "After",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "front",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "back",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "After",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "front",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "back",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "After",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": ", which returns 2",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "frontback",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "After",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": ", which returns 4",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "back",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "front",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "After",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": ", which returns 1",
+      "page": 133
+    },
+    {
+      "level": "H3",
+      "name": "front",
+      "page": 134
+    },
+    {
+      "level": "H3",
+      "name": "back",
+      "page": 134
+    },
+    {
+      "level": "H3",
+      "name": "After",
+      "page": 134
+    },
+    {
+      "level": "H3",
+      "name": ", which returns 3",
+      "page": 134
+    },
+    {
+      "level": "H3",
+      "name": "and makes the queue empty",
+      "page": 134
+    },
+    {
+      "level": "H2",
+      "name": "3.7.3ApplicationsofQueues",
+      "page": 134
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 135
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 135
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 140
+    },
+    {
+      "level": "H1",
+      "name": "Trees",
+      "page": 140
+    },
+    {
+      "level": "H1",
+      "name": "4.1Preliminaries",
+      "page": 140
+    },
+    {
+      "level": "H3",
+      "name": "root",
+      "page": 141
+    },
+    {
+      "level": "H3",
+      "name": ". . .",
+      "page": 141
+    },
+    {
+      "level": "H2",
+      "name": "4.1.1ImplementationofTrees",
+      "page": 141
+    },
+    {
+      "level": "H2",
+      "name": "4.1.2TreeTraversalswithanApplication",
+      "page": 142
+    },
+    {
+      "level": "H1",
+      "name": "4.2BinaryTrees",
+      "page": 145
+    },
+    {
+      "level": "H3",
+      "name": "root",
+      "page": 146
+    },
+    {
+      "level": "H2",
+      "name": "4.2.1Implementation",
+      "page": 147
+    },
+    {
+      "level": "H2",
+      "name": "4.2.2AnExample:ExpressionTrees",
+      "page": 147
+    },
+    {
+      "level": "H3",
+      "name": "ConstructinganExpressionTree",
+      "page": 148
+    },
+    {
+      "level": "H1",
+      "name": "4.3TheSearchTreeADT—Binary",
+      "page": 151
+    },
+    {
+      "level": "H1",
+      "name": "SearchTrees",
+      "page": 151
+    },
+    {
+      "level": "H2",
+      "name": "4.3.1",
+      "page": 153
+    },
+    {
+      "level": "H2",
+      "name": "contains",
+      "page": 153
+    },
+    {
+      "level": "H2",
+      "name": "4.3.2",
+      "page": 154
+    },
+    {
+      "level": "H2",
+      "name": "findMin",
+      "page": 154
+    },
+    {
+      "level": "H2",
+      "name": "findMax",
+      "page": 154
+    },
+    {
+      "level": "H2",
+      "name": "4.3.3",
+      "page": 155
+    },
+    {
+      "level": "H2",
+      "name": "insert",
+      "page": 155
+    },
+    {
+      "level": "H2",
+      "name": "4.3.4",
+      "page": 158
+    },
+    {
+      "level": "H2",
+      "name": "remove",
+      "page": 158
+    },
+    {
+      "level": "H2",
+      "name": "4.3.5DestructorandCopyConstructor",
+      "page": 160
+    },
+    {
+      "level": "H2",
+      "name": "4.3.6Average-CaseAnalysis",
+      "page": 160
+    },
+    {
+      "level": "H1",
+      "name": "4.4AVLTrees",
+      "page": 163
+    },
+    {
+      "level": "H2",
+      "name": "4.4.1SingleRotation",
+      "page": 166
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 167
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 167
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 168
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 168
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 168
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 168
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 168
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 168
+    },
+    {
+      "level": "H2",
+      "name": "4.4.2DoubleRotation",
+      "page": 168
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 170
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 170
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 170
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 170
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 171
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 171
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 171
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 171
+    },
+    {
+      "level": "H3",
+      "name": "before",
+      "page": 171
+    },
+    {
+      "level": "H3",
+      "name": "after",
+      "page": 172
+    },
+    {
+      "level": "H1",
+      "name": "4.5SplayTrees",
+      "page": 177
+    },
+    {
+      "level": "H2",
+      "name": "4.5.1ASimpleIdea(ThatDoesNotWork)",
+      "page": 177
+    },
+    {
+      "level": "H2",
+      "name": "4.5.2Splaying",
+      "page": 179
+    },
+    {
+      "level": "H1",
+      "name": "4.6TreeTraversals(Revisited)",
+      "page": 185
+    },
+    {
+      "level": "H1",
+      "name": "4.7B-Trees",
+      "page": 187
+    },
+    {
+      "level": "H1",
+      "name": "4.8SetsandMapsintheStandardLibrary",
+      "page": 192
+    },
+    {
+      "level": "H2",
+      "name": "4.8.1Sets",
+      "page": 192
+    },
+    {
+      "level": "H2",
+      "name": "4.8.2Maps",
+      "page": 193
+    },
+    {
+      "level": "H2",
+      "name": "4.8.3Implementationof",
+      "page": 194
+    },
+    {
+      "level": "H2",
+      "name": "setandmap",
+      "page": 194
+    },
+    {
+      "level": "H2",
+      "name": "4.8.4AnExampleThatUsesSeveralMaps",
+      "page": 195
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 200
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 201
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 208
+    },
+    {
+      "level": "H3",
+      "name": "This page intentionally left blank",
+      "page": 211
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 212
+    },
+    {
+      "level": "H1",
+      "name": "Hashing",
+      "page": 212
+    },
+    {
+      "level": "H1",
+      "name": "5.1GeneralIdea",
+      "page": 212
+    },
+    {
+      "level": "H3",
+      "name": "john25000",
+      "page": 213
+    },
+    {
+      "level": "H3",
+      "name": "phil31250",
+      "page": 213
+    },
+    {
+      "level": "H3",
+      "name": "dave27500",
+      "page": 213
+    },
+    {
+      "level": "H3",
+      "name": "mary28200",
+      "page": 213
+    },
+    {
+      "level": "H1",
+      "name": "5.2HashFunction",
+      "page": 213
+    },
+    {
+      "level": "H1",
+      "name": "5.3SeparateChaining",
+      "page": 215
+    },
+    {
+      "level": "H1",
+      "name": "5.4HashTableswithoutLinkedLists",
+      "page": 220
+    },
+    {
+      "level": "H2",
+      "name": "5.4.1LinearProbing",
+      "page": 220
+    },
+    {
+      "level": "H2",
+      "name": "5.4.2QuadraticProbing",
+      "page": 221
+    },
+    {
+      "level": "H3",
+      "name": "12.0",
+      "page": 222
+    },
+    {
+      "level": "H3",
+      "name": "15.0",
+      "page": 222
+    },
+    {
+      "level": "H3",
+      "name": ".10 .15 .20 .25 .30 .35 .40 .45 .50 .55 .60.65 .70 .75 .80 .85 .90 .95",
+      "page": 222
+    },
+    {
+      "level": "H2",
+      "name": "5.4.3DoubleHashing",
+      "page": 226
+    },
+    {
+      "level": "H1",
+      "name": "5.5Rehashing",
+      "page": 227
+    },
+    {
+      "level": "H1",
+      "name": "5.6HashTablesintheStandardLibrary",
+      "page": 229
+    },
+    {
+      "level": "H1",
+      "name": "5.7HashTableswithWorst-Case",
+      "page": 231
+    },
+    {
+      "level": "H1",
+      "name": "(1)Access",
+      "page": 231
+    },
+    {
+      "level": "H2",
+      "name": "5.7.1PerfectHashing",
+      "page": 232
+    },
+    {
+      "level": "H2",
+      "name": "5.7.2CuckooHashing",
+      "page": 234
+    },
+    {
+      "level": "H3",
+      "name": "CuckooHashTableImplementation",
+      "page": 238
+    },
+    {
+      "level": "H2",
+      "name": "5.7.3HopscotchHashing",
+      "page": 246
+    },
+    {
+      "level": "H1",
+      "name": "5.8UniversalHashing",
+      "page": 249
+    },
+    {
+      "level": "H1",
+      "name": "5.9ExtendibleHashing",
+      "page": 252
+    },
+    {
+      "level": "H3",
+      "name": "000100",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "001000",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "001010",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "001011",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "010100",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "011000",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "100000",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "101000",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "101100",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "101110",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "111000",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "111001",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "name": "000100",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "001000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "001010",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "001011",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "010100",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "011000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "100000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "100100",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "101000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "101100",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "101110",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "111000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "111001",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "000000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "000100",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "001000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "001010",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "001011",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "010100",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "011000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "100000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "100100",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "101000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "101100",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "101110",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "111000",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "name": "111001",
+      "page": 254
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 255
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 256
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 260
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 264
+    },
+    {
+      "level": "H1",
+      "name": "PriorityQueues(Heaps)",
+      "page": 264
+    },
+    {
+      "level": "H1",
+      "name": "6.1Model",
+      "page": 264
+    },
+    {
+      "level": "H3",
+      "name": "insert",
+      "page": 265
+    },
+    {
+      "level": "H3",
+      "name": "Priority Queue",
+      "page": 265
+    },
+    {
+      "level": "H3",
+      "name": "deleteMin",
+      "page": 265
+    },
+    {
+      "level": "H1",
+      "name": "6.2SimpleImplementations",
+      "page": 265
+    },
+    {
+      "level": "H1",
+      "name": "6.3BinaryHeap",
+      "page": 266
+    },
+    {
+      "level": "H2",
+      "name": "6.3.1StructureProperty",
+      "page": 266
+    },
+    {
+      "level": "H2",
+      "name": "6.3.2Heap-OrderProperty",
+      "page": 267
+    },
+    {
+      "level": "H2",
+      "name": "6.3.3BasicHeapOperations",
+      "page": 268
+    },
+    {
+      "level": "H3",
+      "name": "insert",
+      "page": 268
+    },
+    {
+      "level": "H3",
+      "name": "deleteMin",
+      "page": 270
+    },
+    {
+      "level": "H2",
+      "name": "6.3.4OtherHeapOperations",
+      "page": 271
+    },
+    {
+      "level": "H3",
+      "name": "decreaseKey",
+      "page": 273
+    },
+    {
+      "level": "H3",
+      "name": "increaseKey",
+      "page": 273
+    },
+    {
+      "level": "H3",
+      "name": "remove",
+      "page": 273
+    },
+    {
+      "level": "H3",
+      "name": "buildHeap",
+      "page": 274
+    },
+    {
+      "level": "H3",
+      "name": "120140",
+      "page": 275
+    },
+    {
+      "level": "H3",
+      "name": "120140",
+      "page": 275
+    },
+    {
+      "level": "H3",
+      "name": "120140",
+      "page": 275
+    },
+    {
+      "level": "H3",
+      "name": "120140",
+      "page": 275
+    },
+    {
+      "level": "H3",
+      "name": "120140",
+      "page": 275
+    },
+    {
+      "level": "H3",
+      "name": "120140",
+      "page": 275
+    },
+    {
+      "level": "H3",
+      "name": "120140",
+      "page": 276
+    },
+    {
+      "level": "H3",
+      "name": "120140",
+      "page": 276
+    },
+    {
+      "level": "H1",
+      "name": "6.4ApplicationsofPriorityQueues",
+      "page": 276
+    },
+    {
+      "level": "H2",
+      "name": "6.4.1TheSelectionProblem",
+      "page": 277
+    },
+    {
+      "level": "H3",
+      "name": "Algorithm6A",
+      "page": 277
+    },
+    {
+      "level": "H3",
+      "name": "Algorithm6B",
+      "page": 277
+    },
+    {
+      "level": "H2",
+      "name": "6.4.2EventSimulation",
+      "page": 278
+    },
+    {
+      "level": "H1",
+      "name": "-Heaps",
+      "page": 279
+    },
+    {
+      "level": "H1",
+      "name": "6.6LeftistHeaps",
+      "page": 280
+    },
+    {
+      "level": "H2",
+      "name": "6.6.1LeftistHeapProperty",
+      "page": 280
+    },
+    {
+      "level": "H2",
+      "name": "6.6.2LeftistHeapOperations",
+      "page": 281
+    },
+    {
+      "level": "H1",
+      "name": "6.7SkewHeaps",
+      "page": 288
+    },
+    {
+      "level": "H1",
+      "name": "6.8BinomialQueues",
+      "page": 290
+    },
+    {
+      "level": "H2",
+      "name": "6.8.1BinomialQueueStructure",
+      "page": 290
+    },
+    {
+      "level": "H2",
+      "name": "6.8.2BinomialQueueOperations",
+      "page": 290
+    },
+    {
+      "level": "H2",
+      "name": "6.8.3ImplementationofBinomialQueues",
+      "page": 295
+    },
+    {
+      "level": "H1",
+      "name": "6.9PriorityQueuesintheStandardLibrary",
+      "page": 301
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 302
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 302
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 307
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 310
+    },
+    {
+      "level": "H1",
+      "name": "Sorting",
+      "page": 310
+    },
+    {
+      "level": "H1",
+      "name": "7.1Preliminaries",
+      "page": 310
+    },
+    {
+      "level": "H1",
+      "name": "7.2InsertionSort",
+      "page": 311
+    },
+    {
+      "level": "H2",
+      "name": "7.2.1TheAlgorithm",
+      "page": 311
+    },
+    {
+      "level": "H2",
+      "name": "7.2.2STLImplementationofInsertionSort",
+      "page": 312
+    },
+    {
+      "level": "H2",
+      "name": "7.2.3AnalysisofInsertionSort",
+      "page": 313
+    },
+    {
+      "level": "H1",
+      "name": "7.3ALowerBoundforSimple",
+      "page": 314
+    },
+    {
+      "level": "H1",
+      "name": "SortingAlgorithms",
+      "page": 314
+    },
+    {
+      "level": "H1",
+      "name": "7.4Shellsort",
+      "page": 315
+    },
+    {
+      "level": "H2",
+      "name": "7.4.1Worst-CaseAnalysisofShellsort",
+      "page": 316
+    },
+    {
+      "level": "H1",
+      "name": "7.5Heapsort",
+      "page": 319
+    },
+    {
+      "level": "H2",
+      "name": "7.5.1AnalysisofHeapsort",
+      "page": 320
+    },
+    {
+      "level": "H1",
+      "name": "7.6Mergesort",
+      "page": 323
+    },
+    {
+      "level": "H2",
+      "name": "7.6.1AnalysisofMergesort",
+      "page": 325
+    },
+    {
+      "level": "H1",
+      "name": "7.7Quicksort",
+      "page": 328
+    },
+    {
+      "level": "H2",
+      "name": "7.7.1PickingthePivot",
+      "page": 330
+    },
+    {
+      "level": "H3",
+      "name": "AWrongWay",
+      "page": 331
+    },
+    {
+      "level": "H3",
+      "name": "ASafeManeuver",
+      "page": 332
+    },
+    {
+      "level": "H3",
+      "name": "Median-of-ThreePartitioning",
+      "page": 332
+    },
+    {
+      "level": "H2",
+      "name": "7.7.2PartitioningStrategy",
+      "page": 332
+    },
+    {
+      "level": "H2",
+      "name": "7.7.3SmallArrays",
+      "page": 334
+    },
+    {
+      "level": "H2",
+      "name": "7.7.4ActualQuicksortRoutines",
+      "page": 334
+    },
+    {
+      "level": "H2",
+      "name": "7.7.5AnalysisofQuicksort",
+      "page": 337
+    },
+    {
+      "level": "H3",
+      "name": "Worst-CaseAnalysis",
+      "page": 337
+    },
+    {
+      "level": "H3",
+      "name": "Best-CaseAnalysis",
+      "page": 338
+    },
+    {
+      "level": "H3",
+      "name": "Average-CaseAnalysis",
+      "page": 339
+    },
+    {
+      "level": "H2",
+      "name": "7.7.6ALinear-Expected-TimeAlgorithmforSelection",
+      "page": 340
+    },
+    {
+      "level": "H1",
+      "name": "7.8AGeneralLowerBoundforSorting",
+      "page": 342
+    },
+    {
+      "level": "H2",
+      "name": "7.8.1DecisionTrees",
+      "page": 342
+    },
+    {
+      "level": "H1",
+      "name": "7.9Decision-TreeLowerBoundsforSelection",
+      "page": 344
+    },
+    {
+      "level": "H1",
+      "name": "Problems",
+      "page": 344
+    },
+    {
+      "level": "H3",
+      "name": "TREE T",
+      "page": 346
+    },
+    {
+      "level": "H3",
+      "name": "TREE T",
+      "page": 346
+    },
+    {
+      "level": "H1",
+      "name": "7.10AdversaryLowerBounds",
+      "page": 347
+    },
+    {
+      "level": "H3",
+      "name": "LowerBoundforFindingtheMinimumandMaximum",
+      "page": 348
+    },
+    {
+      "level": "H1",
+      "name": "7.11Linear-TimeSorts:BucketSort",
+      "page": 350
+    },
+    {
+      "level": "H1",
+      "name": "andRadixSort",
+      "page": 350
+    },
+    {
+      "level": "H1",
+      "name": "7.12ExternalSorting",
+      "page": 355
+    },
+    {
+      "level": "H2",
+      "name": "7.12.1WhyWeNeedNewAlgorithms",
+      "page": 355
+    },
+    {
+      "level": "H2",
+      "name": "7.12.2ModelforExternalSorting",
+      "page": 355
+    },
+    {
+      "level": "H2",
+      "name": "7.12.3TheSimpleAlgorithm",
+      "page": 356
+    },
+    {
+      "level": "H2",
+      "name": "7.12.4MultiwayMerge",
+      "page": 357
+    },
+    {
+      "level": "H2",
+      "name": "7.12.5PolyphaseMerge",
+      "page": 358
+    },
+    {
+      "level": "H2",
+      "name": "7.12.6ReplacementSelection",
+      "page": 359
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 360
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 360
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 366
+    },
+    {
+      "level": "H3",
+      "name": "This page intentionally left blank",
+      "page": 369
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 370
+    },
+    {
+      "level": "H1",
+      "name": "TheDisjointSetsClass",
+      "page": 370
+    },
+    {
+      "level": "H1",
+      "name": "8.1EquivalenceRelations",
+      "page": 370
+    },
+    {
+      "level": "H1",
+      "name": "8.2TheDynamicEquivalenceProblem",
+      "page": 371
+    },
+    {
+      "level": "H1",
+      "name": "8.3BasicDataStructure",
+      "page": 372
+    },
+    {
+      "level": "H1",
+      "name": "8.4SmartUnionAlgorithms",
+      "page": 376
+    },
+    {
+      "level": "H1",
+      "name": "8.5PathCompression",
+      "page": 379
+    },
+    {
+      "level": "H1",
+      "name": "8.6WorstCaseforUnion-by-RankandPath",
+      "page": 380
+    },
+    {
+      "level": "H1",
+      "name": "Compression",
+      "page": 380
+    },
+    {
+      "level": "H2",
+      "name": "8.6.1SlowlyGrowingFunctions",
+      "page": 381
+    },
+    {
+      "level": "H2",
+      "name": "8.6.2AnAnalysisbyRecursiveDecomposition",
+      "page": 381
+    },
+    {
+      "level": "H3",
+      "name": "PartialPathCompression",
+      "page": 383
+    },
+    {
+      "level": "H3",
+      "name": "ARecursiveDecomposition",
+      "page": 383
+    },
+    {
+      "level": "H3",
+      "name": "BOTTOM",
+      "page": 384
+    },
+    {
+      "level": "H3",
+      "name": "BOTTOM",
+      "page": 384
+    },
+    {
+      "level": "H3",
+      "name": "BOTTOM",
+      "page": 384
+    },
+    {
+      "level": "H3",
+      "name": "BOTTOM",
+      "page": 385
+    },
+    {
+      "level": "H3",
+      "name": "BOTTOM",
+      "page": 386
+    },
+    {
+      "level": "H2",
+      "name": "8.6.3An",
+      "page": 388
+    },
+    {
+      "level": "H2",
+      "name": "log*",
+      "page": 388
+    },
+    {
+      "level": "H2",
+      "name": ")Bound",
+      "page": 388
+    },
+    {
+      "level": "H2",
+      "name": "8.6.4An",
+      "page": 389
+    },
+    {
+      "level": "H2",
+      "name": "))Bound",
+      "page": 389
+    },
+    {
+      "level": "H1",
+      "name": "8.7AnApplication",
+      "page": 391
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 393
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 394
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 395
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 398
+    },
+    {
+      "level": "H1",
+      "name": "GraphAlgorithms",
+      "page": 398
+    },
+    {
+      "level": "H1",
+      "name": "9.1Deﬁnitions",
+      "page": 398
+    },
+    {
+      "level": "H2",
+      "name": "9.1.1RepresentationofGraphs",
+      "page": 399
+    },
+    {
+      "level": "H3",
+      "name": "2, 4, 3",
+      "page": 401
+    },
+    {
+      "level": "H3",
+      "name": "4, 5",
+      "page": 401
+    },
+    {
+      "level": "H3",
+      "name": "6, 7, 3",
+      "page": 401
+    },
+    {
+      "level": "H3",
+      "name": "4, 7",
+      "page": 401
+    },
+    {
+      "level": "H3",
+      "name": "(empty)",
+      "page": 401
+    },
+    {
+      "level": "H1",
+      "name": "9.2TopologicalSort",
+      "page": 401
+    },
+    {
+      "level": "H1",
+      "name": "9.3Shortest-PathAlgorithms",
+      "page": 405
+    },
+    {
+      "level": "H2",
+      "name": "9.3.1UnweightedShortestPaths",
+      "page": 406
+    },
+    {
+      "level": "H2",
+      "name": "9.3.2Dijkstra’sAlgorithm",
+      "page": 410
+    },
+    {
+      "level": "H2",
+      "name": "9.3.3GraphswithNegativeEdgeCosts",
+      "page": 419
+    },
+    {
+      "level": "H2",
+      "name": "9.3.4AcyclicGraphs",
+      "page": 419
+    },
+    {
+      "level": "H3",
+      "name": "start",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "A(3)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "B(2)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "C(3)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "D(2)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "E(1)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "F(3)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "G(2)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "H(1)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "K(4)",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "finish",
+      "page": 421
+    },
+    {
+      "level": "H3",
+      "name": "A/3/0",
+      "page": 423
+    },
+    {
+      "level": "H3",
+      "name": "B/2/2",
+      "page": 423
+    },
+    {
+      "level": "H3",
+      "name": "C/3/0",
+      "page": 423
+    },
+    {
+      "level": "H3",
+      "name": "D/2/1",
+      "page": 423
+    },
+    {
+      "level": "H3",
+      "name": "E/1/2",
+      "page": 423
+    },
+    {
+      "level": "H3",
+      "name": "F/3/0",
+      "page": 423
+    },
+    {
+      "level": "H3",
+      "name": "G/2/2",
+      "page": 423
+    },
+    {
+      "level": "H3",
+      "name": "K/4/2",
+      "page": 423
+    },
+    {
+      "level": "H3",
+      "name": "H/1/0",
+      "page": 423
+    },
+    {
+      "level": "H2",
+      "name": "9.3.5All-PairsShortestPath",
+      "page": 423
+    },
+    {
+      "level": "H2",
+      "name": "9.3.6ShortestPathExample",
+      "page": 423
+    },
+    {
+      "level": "H1",
+      "name": "9.4NetworkFlowProblems",
+      "page": 425
+    },
+    {
+      "level": "H2",
+      "name": "9.4.1ASimpleMaximum-FlowAlgorithm",
+      "page": 427
+    },
+    {
+      "level": "H3",
+      "name": "1000000",
+      "page": 431
+    },
+    {
+      "level": "H3",
+      "name": "1000000",
+      "page": 431
+    },
+    {
+      "level": "H3",
+      "name": "1000000",
+      "page": 431
+    },
+    {
+      "level": "H3",
+      "name": "1000000",
+      "page": 431
+    },
+    {
+      "level": "H1",
+      "name": "9.5MinimumSpanningTree",
+      "page": 432
+    },
+    {
+      "level": "H2",
+      "name": "9.5.1Prim’sAlgorithm",
+      "page": 433
+    },
+    {
+      "level": "H2",
+      "name": "9.5.2Kruskal’sAlgorithm",
+      "page": 436
+    },
+    {
+      "level": "H1",
+      "name": "9.6ApplicationsofDepth-FirstSearch",
+      "page": 438
+    },
+    {
+      "level": "H2",
+      "name": "9.6.1UndirectedGraphs",
+      "page": 439
+    },
+    {
+      "level": "H2",
+      "name": "9.6.2Biconnectivity",
+      "page": 440
+    },
+    {
+      "level": "H2",
+      "name": "9.6.3EulerCircuits",
+      "page": 444
+    },
+    {
+      "level": "H2",
+      "name": "9.6.4DirectedGraphs",
+      "page": 448
+    },
+    {
+      "level": "H2",
+      "name": "9.6.5FindingStrongComponents",
+      "page": 450
+    },
+    {
+      "level": "H1",
+      "name": "9.7IntroductiontoNP-Completeness",
+      "page": 451
+    },
+    {
+      "level": "H2",
+      "name": "9.7.1Easyvs.Hard",
+      "page": 452
+    },
+    {
+      "level": "H2",
+      "name": "9.7.2TheClassNP",
+      "page": 453
+    },
+    {
+      "level": "H2",
+      "name": "9.7.3NP-CompleteProblems",
+      "page": 453
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 456
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 456
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 464
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 468
+    },
+    {
+      "level": "H1",
+      "name": "AlgorithmDesign",
+      "page": 468
+    },
+    {
+      "level": "H1",
+      "name": "Techniques",
+      "page": 468
+    },
+    {
+      "level": "H1",
+      "name": "10.1GreedyAlgorithms",
+      "page": 468
+    },
+    {
+      "level": "H2",
+      "name": "10.1.1ASimpleSchedulingProblem",
+      "page": 469
+    },
+    {
+      "level": "H3",
+      "name": "MultiprocessorCase",
+      "page": 470
+    },
+    {
+      "level": "H3",
+      "name": "1415",
+      "page": 471
+    },
+    {
+      "level": "H3",
+      "name": "MinimizingtheFinalCompletionTime",
+      "page": 472
+    },
+    {
+      "level": "H2",
+      "name": "10.1.2HuffmanCodes",
+      "page": 472
+    },
+    {
+      "level": "H3",
+      "name": "1416",
+      "page": 472
+    },
+    {
+      "level": "H3",
+      "name": "Huffman’sAlgorithm",
+      "page": 475
+    },
+    {
+      "level": "H2",
+      "name": "10.1.3ApproximateBinPacking",
+      "page": 478
+    },
+    {
+      "level": "H3",
+      "name": "OnlineAlgorithms",
+      "page": 479
+    },
+    {
+      "level": "H3",
+      "name": "NextFit",
+      "page": 480
+    },
+    {
+      "level": "H3",
+      "name": "FirstFit",
+      "page": 480
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 480
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 480
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 480
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 480
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 480
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 481
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 481
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 481
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 481
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 481
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 481
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 481
+    },
+    {
+      "level": "H3",
+      "name": "BestFit",
+      "page": 482
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 482
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 482
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 482
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 483
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 483
+    },
+    {
+      "level": "H3",
+      "name": "empty",
+      "page": 483
+    },
+    {
+      "level": "H3",
+      "name": "OfﬂineAlgorithms",
+      "page": 483
+    },
+    {
+      "level": "H1",
+      "name": "10.2DivideandConquer",
+      "page": 486
+    },
+    {
+      "level": "H2",
+      "name": "10.2.1RunningTimeofDivide-and-ConquerAlgorithms",
+      "page": 487
+    },
+    {
+      "level": "H2",
+      "name": "10.2.2Closest-PointsProblem",
+      "page": 489
+    },
+    {
+      "level": "H3",
+      "name": "Lefthalf(",
+      "page": 493
+    },
+    {
+      "level": "H3",
+      "name": "Righthalf(",
+      "page": 493
+    },
+    {
+      "level": "H2",
+      "name": "10.2.3TheSelectionProblem",
+      "page": 494
+    },
+    {
+      "level": "H3",
+      "name": "Sortedgroupsof fiveelements",
+      "page": 495
+    },
+    {
+      "level": "H3",
+      "name": "Medians",
+      "page": 495
+    },
+    {
+      "level": "H3",
+      "name": "ReducingtheAverageNumberofComparisons",
+      "page": 496
+    },
+    {
+      "level": "H2",
+      "name": "10.2.4TheoreticalImprovementsforArithmetic",
+      "page": 497
+    },
+    {
+      "level": "H2",
+      "name": "Problems",
+      "page": 497
+    },
+    {
+      "level": "H3",
+      "name": "MultiplyingIntegers",
+      "page": 497
+    },
+    {
+      "level": "H3",
+      "name": "MatrixMultiplication",
+      "page": 499
+    },
+    {
+      "level": "H1",
+      "name": "10.3DynamicProgramming",
+      "page": 501
+    },
+    {
+      "level": "H2",
+      "name": "10.3.1UsingaTableInsteadofRecursion",
+      "page": 502
+    },
+    {
+      "level": "H3",
+      "name": "C0C1",
+      "page": 504
+    },
+    {
+      "level": "H2",
+      "name": "10.3.2OrderingMatrixMultiplications",
+      "page": 504
+    },
+    {
+      "level": "H2",
+      "name": "10.3.3OptimalBinarySearchTree",
+      "page": 506
+    },
+    {
+      "level": "H3",
+      "name": "Iteration=1",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "a..a",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "am..am",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "and..and",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "egg..egg",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "if..if",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "the..the",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "two..two",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Left=1",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Left=2",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Left=3",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Left=4",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Left=5",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Left=6",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Left=7",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Iteration=2",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "a..am",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "am..and",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "and..egg",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "egg..if",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "if..the",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "the..two",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Iteration=3",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "a..and",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "am..egg",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "and..if",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "egg..the",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "if..two",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "1.02am",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Iteration=4",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "a..egg",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "am..if",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "and..the",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "egg..two",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "1.17am1.21and",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Iteration=5",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "a..if",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "am..the",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "and..two",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "1.83and1.27and1.02",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Iteration=6",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "a..the",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "am..two",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "1.89and1.53and",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "Iteration=7",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "a..two",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "2.15and",
+      "page": 510
+    },
+    {
+      "level": "H2",
+      "name": "10.3.4All-PairsShortestPath",
+      "page": 510
+    },
+    {
+      "level": "H3",
+      "name": "NULL",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "and..if",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "am..am",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "egg..if",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "am..and",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "if..if",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "am..egg",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "NULL",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "0+0.80+0.68=1.48",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "0.18+0.35+0.68=1.21",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "0.56+0.25+0.68=1.49",
+      "page": 511
+    },
+    {
+      "level": "H3",
+      "name": "0.66+0+0.68=1.34",
+      "page": 511
+    },
+    {
+      "level": "H1",
+      "name": "10.4RandomizedAlgorithms",
+      "page": 513
+    },
+    {
+      "level": "H2",
+      "name": "10.4.1Random-NumberGenerators",
+      "page": 514
+    },
+    {
+      "level": "H2",
+      "name": "10.4.2SkipLists",
+      "page": 519
+    },
+    {
+      "level": "H2",
+      "name": "10.4.3PrimalityTesting",
+      "page": 522
+    },
+    {
+      "level": "H1",
+      "name": "10.5BacktrackingAlgorithms",
+      "page": 525
+    },
+    {
+      "level": "H2",
+      "name": "10.5.1TheTurnpikeReconstructionProblem",
+      "page": 525
+    },
+    {
+      "level": "H2",
+      "name": "10.5.2Games",
+      "page": 530
+    },
+    {
+      "level": "H3",
+      "name": "MinimaxStrategy",
+      "page": 530
+    },
+    {
+      "level": "H3",
+      "name": "Pruning",
+      "page": 533
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 537
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 537
+    },
+    {
+      "level": "H3",
+      "name": "9.656",
+      "page": 541
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 546
+    },
+    {
+      "level": "H3",
+      "name": "This page intentionally left blank",
+      "page": 551
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 552
+    },
+    {
+      "level": "H1",
+      "name": "AmortizedAnalysis",
+      "page": 552
+    },
+    {
+      "level": "H1",
+      "name": "11.1AnUnrelatedPuzzle",
+      "page": 553
+    },
+    {
+      "level": "H1",
+      "name": "11.2BinomialQueues",
+      "page": 553
+    },
+    {
+      "level": "H3",
+      "name": "Total",
+      "page": 557
+    },
+    {
+      "level": "H3",
+      "name": "Time",
+      "page": 557
+    },
+    {
+      "level": "H3",
+      "name": "TotalPotential",
+      "page": 557
+    },
+    {
+      "level": "H3",
+      "name": "Insert Cost",
+      "page": 558
+    },
+    {
+      "level": "H3",
+      "name": "PotentialChange",
+      "page": 558
+    },
+    {
+      "level": "H1",
+      "name": "11.3SkewHeaps",
+      "page": 558
+    },
+    {
+      "level": "H1",
+      "name": "11.4FibonacciHeaps",
+      "page": 560
+    },
+    {
+      "level": "H2",
+      "name": "11.4.1CuttingNodesinLeftistHeaps",
+      "page": 561
+    },
+    {
+      "level": "H2",
+      "name": "11.4.2LazyMergingforBinomialQueues",
+      "page": 563
+    },
+    {
+      "level": "H3",
+      "name": "AmortizedAnalysisofLazyBinomialQueues",
+      "page": 565
+    },
+    {
+      "level": "H2",
+      "name": "11.4.3TheFibonacciHeapOperations",
+      "page": 567
+    },
+    {
+      "level": "H2",
+      "name": "11.4.4ProofoftheTimeBound",
+      "page": 568
+    },
+    {
+      "level": "H1",
+      "name": "11.5SplayTrees",
+      "page": 570
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 574
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 575
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 576
+    },
+    {
+      "level": "H3",
+      "name": "CHAPTER",
+      "page": 578
+    },
+    {
+      "level": "H1",
+      "name": "AdvancedDataStructures",
+      "page": 578
+    },
+    {
+      "level": "H1",
+      "name": "andImplementation",
+      "page": 578
+    },
+    {
+      "level": "H1",
+      "name": "12.1Top-DownSplayTrees",
+      "page": 578
+    },
+    {
+      "level": "H1",
+      "name": "12.2Red-BlackTrees",
+      "page": 585
+    },
+    {
+      "level": "H2",
+      "name": "12.2.1Bottom-UpInsertion",
+      "page": 586
+    },
+    {
+      "level": "H2",
+      "name": "12.2.2Top-DownRed-BlackTrees",
+      "page": 587
+    },
+    {
+      "level": "H2",
+      "name": "12.2.3Top-DownDeletion",
+      "page": 589
+    },
+    {
+      "level": "H1",
+      "name": "12.3Treaps",
+      "page": 595
+    },
+    {
+      "level": "H1",
+      "name": "12.4SufﬁxArraysandSufﬁxTrees",
+      "page": 598
+    },
+    {
+      "level": "H2",
+      "name": "12.4.1SufﬁxArrays",
+      "page": 599
+    },
+    {
+      "level": "H2",
+      "name": "12.4.2SufﬁxTrees",
+      "page": 602
+    },
+    {
+      "level": "H3",
+      "name": "nana",
+      "page": 603
+    },
+    {
+      "level": "H2",
+      "name": "12.4.3Linear-TimeConstructionofSufﬁxArrays",
+      "page": 605
+    },
+    {
+      "level": "H2",
+      "name": "andSufﬁxTrees",
+      "page": 605
+    },
+    {
+      "level": "H1",
+      "name": "12.5",
+      "page": 615
+    },
+    {
+      "level": "H1",
+      "name": "-dTrees",
+      "page": 615
+    },
+    {
+      "level": "H1",
+      "name": "12.6PairingHeaps",
+      "page": 621
+    },
+    {
+      "level": "H3",
+      "name": "F S",
+      "page": 622
+    },
+    {
+      "level": "H3",
+      "name": "F S",
+      "page": 622
+    },
+    {
+      "level": "H2",
+      "name": "Summary",
+      "page": 625
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 627
+    },
+    {
+      "level": "H2",
+      "name": "References",
+      "page": 631
+    },
+    {
+      "level": "H3",
+      "name": "APPENDIX",
+      "page": 634
+    },
+    {
+      "level": "H1",
+      "name": "SeparateCompilation",
+      "page": 634
+    },
+    {
+      "level": "H1",
+      "name": "ofClassTemplates",
+      "page": 634
+    },
+    {
+      "level": "H1",
+      "name": "A.1EverythingintheHeader",
+      "page": 635
+    },
+    {
+      "level": "H1",
+      "name": "A.2ExplicitInstantiation",
+      "page": 635
+    },
+    {
+      "level": "H2",
+      "name": "INDEX",
+      "page": 638
+    }
+  ]
+}

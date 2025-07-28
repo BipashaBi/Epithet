@@ -1,0 +1,1275 @@
+{
+  "title": "Python",
+  "headings": [
+    {
+      "level": "H1",
+      "name": "Python",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "name": "Programming",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "name": "Hans-Petter Halvorsen",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "name": "https://www.halvorsen.blog",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "name": "Python Programming",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "name": "PythonProgramming",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "Hans-PetterHalvorsen",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "2019",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "name": "PythonProgramming",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "name": "Preface",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "name": "PythonBooks",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "name": "Programming",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "name": "SoftwareEngineering",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "name": "Contents",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "GettingStartedwithPython",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "PythonProgramming",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "PythonEnvironmentsandDistributions",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "PythonEditors",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "name": "PythonforMathematicsApplications",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "Resources",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "name": "SolutionstoExercises",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "name": "PartI",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "name": "GettingStartedwith",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "name": "Python",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "name": "Chapter1",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "name": "Introduction",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "name": "TheNewAgeofProgramming",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "name": "MATLAB",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "name": "Chapter2",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "name": "WhatisPython?",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "name": "IntroductiontoPython",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "name": "2.1.1",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "name": "Interpretedvs.Compiled",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "name": "PythonPackages",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "name": "2.2.1",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "name": "PythonPackagesforScienceandNumericalCom-",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "name": "putations",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "name": "Anaconda",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "name": "PythonEditors",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "name": "2.4.1",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "name": "PythonIDLE",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "name": "2.4.2",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "VisualStudioCode",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "2.4.3",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "Spyder",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "2.4.4",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "VisualStudio",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "2.4.5",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "PyCharm",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "name": "2.4.6",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "name": "WingPythonIDE",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "name": "2.4.7",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "name": "JupyterNotebook",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "name": "Resources",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "name": "InstallingPython",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "name": "2.6.1",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "name": "PythonWindows10StoreApp",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "name": "2.6.2",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "name": "InstallingAnaconda",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "name": "2.6.3",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "name": "InstallingVisualStudioCode",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "name": "Chapter3",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "name": "StartusingPython",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "name": "PythonIDE",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "name": "MyﬁrstPythonprogram",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "name": "PythonShell",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "name": "RunningPythonfromtheConsole",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "name": "3.4.1",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "name": "OpeningtheConsoleonmacOS",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "name": "3.4.2",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "name": "OpeningtheConsoleonWindows",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "name": "3.4.3",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "name": "AddPythontoPath",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "name": "ScriptingMode",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "name": "3.5.1",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "name": "RunPythonScriptsfromthePythonIDLE",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "name": "3.5.2",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "name": "RunPythonScriptsfromtheConsole(Terminal)",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "name": "macOS",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "name": "3.5.3",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "name": "RunPythonScriptsfromtheCommandPromptin",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "name": "Windows",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "name": "3.5.4",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "name": "RunPythonScriptsfromSpyder",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "name": "Chapter4",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "name": "BasicPythonProgramming",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "name": "BasicPythonProgram",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "name": "4.1.1",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "name": "GetHelp",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "name": "Variables",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "name": "4.2.1",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "name": "Numbers",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "name": "4.2.2",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "name": "Strings",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "name": "4.2.3",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "name": "StringInput",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "name": "Built-inFunctions",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "name": "PythonStandardLibrary",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "name": "UsingPythonLibraries,PackagesandMod-",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "name": "ules",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "name": "4.5.1",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "name": "PythonPackages",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "name": "PlottinginPython",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "name": "4.6.1",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "name": "Subplots",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "name": "4.6.2",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 52
+    },
+    {
+      "level": "H1",
+      "name": "PartII",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "name": "PythonProgramming",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "name": "Chapter5",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "name": "PythonProgramming",
+      "page": 54
+    },
+    {
+      "level": "H2",
+      "name": "If...Else",
+      "page": 54
+    },
+    {
+      "level": "H2",
+      "name": "Arrays",
+      "page": 55
+    },
+    {
+      "level": "H2",
+      "name": "ForLoops",
+      "page": 57
+    },
+    {
+      "level": "H3",
+      "name": "5.3.1",
+      "page": 60
+    },
+    {
+      "level": "H3",
+      "name": "NestedForLoops",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "name": "WhileLoops",
+      "page": 61
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 61
+    },
+    {
+      "level": "H1",
+      "name": "Chapter6",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "name": "CreatingFunctionsin",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "name": "Python",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "name": "Introduction",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "name": "Functionswithmultiplereturnvalues",
+      "page": 65
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 66
+    },
+    {
+      "level": "H1",
+      "name": "Chapter7",
+      "page": 69
+    },
+    {
+      "level": "H1",
+      "name": "CreatingClassesinPython",
+      "page": 69
+    },
+    {
+      "level": "H2",
+      "name": "Introduction",
+      "page": 69
+    },
+    {
+      "level": "H2",
+      "name": "init",
+      "page": 70
+    },
+    {
+      "level": "H2",
+      "name": "()Function",
+      "page": 70
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "name": "Chapter8",
+      "page": 74
+    },
+    {
+      "level": "H1",
+      "name": "CreatingPythonModules",
+      "page": 74
+    },
+    {
+      "level": "H2",
+      "name": "PythonModules",
+      "page": 74
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "name": "Chapter9",
+      "page": 77
+    },
+    {
+      "level": "H1",
+      "name": "FileHandlinginPython",
+      "page": 77
+    },
+    {
+      "level": "H2",
+      "name": "Introduction",
+      "page": 77
+    },
+    {
+      "level": "H2",
+      "name": "WriteDatatoaFile",
+      "page": 77
+    },
+    {
+      "level": "H2",
+      "name": "ReadDatafromaFile",
+      "page": 78
+    },
+    {
+      "level": "H2",
+      "name": "LoggingDatatoFile",
+      "page": 78
+    },
+    {
+      "level": "H2",
+      "name": "WebResources",
+      "page": 79
+    },
+    {
+      "level": "H2",
+      "name": "Exercises",
+      "page": 79
+    },
+    {
+      "level": "H1",
+      "name": "Chapter10",
+      "page": 82
+    },
+    {
+      "level": "H1",
+      "name": "ErrorHandlinginPython",
+      "page": 82
+    },
+    {
+      "level": "H2",
+      "name": "10.1",
+      "page": 82
+    },
+    {
+      "level": "H2",
+      "name": "IntroductiontoErrorHandling",
+      "page": 82
+    },
+    {
+      "level": "H3",
+      "name": "10.1.1",
+      "page": 82
+    },
+    {
+      "level": "H3",
+      "name": "SyntaxErrors",
+      "page": 82
+    },
+    {
+      "level": "H3",
+      "name": "10.1.2",
+      "page": 82
+    },
+    {
+      "level": "H3",
+      "name": "Exceptions",
+      "page": 82
+    },
+    {
+      "level": "H2",
+      "name": "10.2",
+      "page": 83
+    },
+    {
+      "level": "H2",
+      "name": "ExceptionsHandling",
+      "page": 83
+    },
+    {
+      "level": "H1",
+      "name": "Chapter11",
+      "page": 85
+    },
+    {
+      "level": "H1",
+      "name": "DebugginginPython",
+      "page": 85
+    },
+    {
+      "level": "H1",
+      "name": "Chapter12",
+      "page": 86
+    },
+    {
+      "level": "H1",
+      "name": "InstallingandusingPython",
+      "page": 86
+    },
+    {
+      "level": "H1",
+      "name": "Packages",
+      "page": 86
+    },
+    {
+      "level": "H2",
+      "name": "12.1",
+      "page": 86
+    },
+    {
+      "level": "H2",
+      "name": "WhatisPIP?",
+      "page": 86
+    },
+    {
+      "level": "H1",
+      "name": "PartIII",
+      "page": 87
+    },
+    {
+      "level": "H1",
+      "name": "PythonEnvironmentsand",
+      "page": 87
+    },
+    {
+      "level": "H1",
+      "name": "Distributions",
+      "page": 87
+    },
+    {
+      "level": "H1",
+      "name": "Chapter13",
+      "page": 88
+    },
+    {
+      "level": "H1",
+      "name": "IntroductiontoPython",
+      "page": 88
+    },
+    {
+      "level": "H1",
+      "name": "Environmentsand",
+      "page": 88
+    },
+    {
+      "level": "H1",
+      "name": "Distributions",
+      "page": 88
+    },
+    {
+      "level": "H2",
+      "name": "13.1",
+      "page": 89
+    },
+    {
+      "level": "H2",
+      "name": "PackageandEnvironmentManagers",
+      "page": 89
+    },
+    {
+      "level": "H3",
+      "name": "13.1.1",
+      "page": 89
+    },
+    {
+      "level": "H3",
+      "name": "13.1.2",
+      "page": 89
+    },
+    {
+      "level": "H3",
+      "name": "Conda",
+      "page": 89
+    },
+    {
+      "level": "H2",
+      "name": "13.2",
+      "page": 90
+    },
+    {
+      "level": "H2",
+      "name": "PythonVirtualEnvironments",
+      "page": 90
+    },
+    {
+      "level": "H1",
+      "name": "Chapter14",
+      "page": 91
+    },
+    {
+      "level": "H1",
+      "name": "Anaconda",
+      "page": 91
+    },
+    {
+      "level": "H2",
+      "name": "14.1",
+      "page": 91
+    },
+    {
+      "level": "H2",
+      "name": "AnacondaNavigator",
+      "page": 91
+    },
+    {
+      "level": "H1",
+      "name": "Chapter15",
+      "page": 93
+    },
+    {
+      "level": "H1",
+      "name": "EnthoughtCanopy",
+      "page": 93
+    },
+    {
+      "level": "H1",
+      "name": "PartIV",
+      "page": 94
+    },
+    {
+      "level": "H1",
+      "name": "PythonEditors",
+      "page": 94
+    },
+    {
+      "level": "H1",
+      "name": "Chapter16",
+      "page": 95
+    },
+    {
+      "level": "H1",
+      "name": "PythonEditors",
+      "page": 95
+    },
+    {
+      "level": "H1",
+      "name": "Chapter17",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "name": "Spyder",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "name": "Chapter18",
+      "page": 99
+    },
+    {
+      "level": "H1",
+      "name": "VisualStudioCode",
+      "page": 99
+    },
+    {
+      "level": "H2",
+      "name": "18.1",
+      "page": 99
+    },
+    {
+      "level": "H2",
+      "name": "IntroductiontoVisualStudioCode",
+      "page": 99
+    },
+    {
+      "level": "H2",
+      "name": "18.2",
+      "page": 100
+    },
+    {
+      "level": "H2",
+      "name": "PythoninVisualStudioCode",
+      "page": 100
+    },
+    {
+      "level": "H1",
+      "name": "Chapter19",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "name": "VisualStudio",
+      "page": 101
+    },
+    {
+      "level": "H2",
+      "name": "19.1",
+      "page": 101
+    },
+    {
+      "level": "H2",
+      "name": "IntroductiontoVisualStudio",
+      "page": 101
+    },
+    {
+      "level": "H2",
+      "name": "19.2",
+      "page": 101
+    },
+    {
+      "level": "H2",
+      "name": "WorkwithPythoninVisualStudio",
+      "page": 101
+    },
+    {
+      "level": "H3",
+      "name": "19.2.1",
+      "page": 102
+    },
+    {
+      "level": "H3",
+      "name": "MakeVisualStudioreadyforPythonProgram-",
+      "page": 102
+    },
+    {
+      "level": "H3",
+      "name": "ming",
+      "page": 102
+    },
+    {
+      "level": "H3",
+      "name": "19.2.2",
+      "page": 102
+    },
+    {
+      "level": "H3",
+      "name": "PythonInteractive",
+      "page": 102
+    },
+    {
+      "level": "H3",
+      "name": "19.2.3",
+      "page": 103
+    },
+    {
+      "level": "H3",
+      "name": "NewPythonProject",
+      "page": 103
+    },
+    {
+      "level": "H1",
+      "name": "Chapter20",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "name": "PyCharm",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "name": "Chapter21",
+      "page": 111
+    },
+    {
+      "level": "H1",
+      "name": "WingPythonIDE",
+      "page": 111
+    },
+    {
+      "level": "H1",
+      "name": "Chapter22",
+      "page": 113
+    },
+    {
+      "level": "H1",
+      "name": "JupyterNotebook",
+      "page": 113
+    },
+    {
+      "level": "H2",
+      "name": "22.1",
+      "page": 114
+    },
+    {
+      "level": "H2",
+      "name": "JupyterHub",
+      "page": 114
+    },
+    {
+      "level": "H2",
+      "name": "22.2",
+      "page": 114
+    },
+    {
+      "level": "H2",
+      "name": "MicrosoftAzureNotebooks",
+      "page": 114
+    },
+    {
+      "level": "H1",
+      "name": "PartV",
+      "page": 116
+    },
+    {
+      "level": "H1",
+      "name": "PythonforMathematics",
+      "page": 116
+    },
+    {
+      "level": "H1",
+      "name": "Applications",
+      "page": 116
+    },
+    {
+      "level": "H1",
+      "name": "Chapter23",
+      "page": 117
+    },
+    {
+      "level": "H1",
+      "name": "MathematicsinPython",
+      "page": 117
+    },
+    {
+      "level": "H2",
+      "name": "23.1",
+      "page": 117
+    },
+    {
+      "level": "H2",
+      "name": "BasicMathFunctions",
+      "page": 117
+    },
+    {
+      "level": "H3",
+      "name": "23.1.1",
+      "page": 119
+    },
+    {
+      "level": "H3",
+      "name": "Exercises",
+      "page": 119
+    },
+    {
+      "level": "H2",
+      "name": "23.2",
+      "page": 121
+    },
+    {
+      "level": "H2",
+      "name": "Statistics",
+      "page": 121
+    },
+    {
+      "level": "H3",
+      "name": "23.2.1",
+      "page": 121
+    },
+    {
+      "level": "H3",
+      "name": "IntroductiontoStatistics",
+      "page": 121
+    },
+    {
+      "level": "H3",
+      "name": "23.2.2",
+      "page": 122
+    },
+    {
+      "level": "H3",
+      "name": "StatisticsfunctionsinPython",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "name": "23.3",
+      "page": 124
+    },
+    {
+      "level": "H2",
+      "name": "TrigonometricFunctions",
+      "page": 124
+    },
+    {
+      "level": "H2",
+      "name": "23.4",
+      "page": 128
+    },
+    {
+      "level": "H2",
+      "name": "Polynomials",
+      "page": 128
+    },
+    {
+      "level": "H1",
+      "name": "PartVI",
+      "page": 131
+    },
+    {
+      "level": "H1",
+      "name": "Resources",
+      "page": 131
+    },
+    {
+      "level": "H1",
+      "name": "Chapter24",
+      "page": 132
+    },
+    {
+      "level": "H1",
+      "name": "PythonResources",
+      "page": 132
+    },
+    {
+      "level": "H2",
+      "name": "24.1",
+      "page": 132
+    },
+    {
+      "level": "H2",
+      "name": "PythonDistributions",
+      "page": 132
+    },
+    {
+      "level": "H2",
+      "name": "24.2",
+      "page": 132
+    },
+    {
+      "level": "H2",
+      "name": "PythonLibraries",
+      "page": 132
+    },
+    {
+      "level": "H2",
+      "name": "24.3",
+      "page": 132
+    },
+    {
+      "level": "H2",
+      "name": "PythonEditors",
+      "page": 132
+    },
+    {
+      "level": "H2",
+      "name": "24.4",
+      "page": 133
+    },
+    {
+      "level": "H2",
+      "name": "PythonTutorials",
+      "page": 133
+    },
+    {
+      "level": "H2",
+      "name": "24.5",
+      "page": 133
+    },
+    {
+      "level": "H2",
+      "name": "PythoninVisualStudio",
+      "page": 133
+    },
+    {
+      "level": "H1",
+      "name": "Bibliography",
+      "page": 134
+    },
+    {
+      "level": "H1",
+      "name": "PartVII",
+      "page": 136
+    },
+    {
+      "level": "H1",
+      "name": "SolutionstoExercises",
+      "page": 136
+    },
+    {
+      "level": "H1",
+      "name": "StartusingPython",
+      "page": 137
+    },
+    {
+      "level": "H2",
+      "name": "SimulationandPlottingofDynamicSystem",
+      "page": 137
+    },
+    {
+      "level": "H1",
+      "name": "PythonProgramming",
+      "page": 139
+    },
+    {
+      "level": "H1",
+      "name": "Python Programming",
+      "page": 140
+    }
+  ]
+}

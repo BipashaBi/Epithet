@@ -1,0 +1,570 @@
+{
+  "title": "AI-Based Power Optimization Techniques",
+  "headings": [
+    {
+      "level": "H1",
+      "name": "AI-Based Power Optimization Techniques",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "name": "for VLSI Circuits",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "name": "Bipasha Biswas, Khushi Singh",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "name": "Kalinga Institute of Industrial Technology, BBS",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "name": "2025-26",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "name": "ICDCIT 2025",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "name": "Problem Statement",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "Gate Array ICs, or FPGAs, are flexible chips that can be reprogrammed for different uses.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "However, they have some problems:",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "Power Consuming",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": ": They use more energy than other chips because they're flexible.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "This is a problem in places like data centers where energy is important.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "Hot Chips",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": ": As they get more powerful, they also get hotter. This can damage them if",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "not cooled properly.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "Expensive",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": ": They're usually more expensive to make than other chips. This can make",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "them less attractive for products that need to be cheap.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "name": "Security and Reliability Concerns:",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "FPGAs are at risk of being hacked because they can be changed. They must be very reliable",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "in important devices like cars and medical equipment.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "5. Size:",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "Making FPGAs smaller is difficult and expensive.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "AI and ML:",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "AI and ML need special chips. Quantum computing may help, but it's not ready yet.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "Environment:",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "Making chips is hazardous for the planet’s environment. We need to use less resources and",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "recycle more.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "Hacking:",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "name": "Chips can be hacked at a very low level. This is a big problem with IoT devices.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "name": "Abstract",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "name": "Solution",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "Hardware Design:",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "Advanced Power Optimization",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "Use dynamic voltage and frequency scaling (DVFS), clock gating, and power gating to adjust",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "power usage dynamically based on workload.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "Incorporate adaptive power management systems that leverage AI to predict workload",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "patterns and adjust power usage accordingly.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "Explore non-volatile memory (NVM) and 3D-stacked memory architectures to reduce power",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "consumption in memory operations.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "Use power-aware placement and routing algorithms to minimize signal propagation delays",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "and reduce switching power.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "name": "AI/ML Algorithm Integration:",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "HLS-Based and AI-Driven Optimization",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Use AI-assisted HLS tools that automatically optimize AI/ML algorithms for power,",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "performance, and area (PPA), offering suggestions based on past successful",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "designs.",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Implement auto-tuning algorithms to adjust precision dynamically during runtime,",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "balancing performance with power consumption based on the specific workload.",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Optimize for edge AI scenarios, ensuring low-latency performance with minimal",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "power overhead, crucial for mobile and IoT devices.",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "name": "Algorithm Compression and Optimization:",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Implement",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "algorithm",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "quantization",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "pruning",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "techniques",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "reduce",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "computational",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "complexity",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "models,",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "saving power without sacrificing accuracy.",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Explore the use of neuromorphic computing",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "principles",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "model",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "AI/ML",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "tasks",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "more",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "efficiently on FPGA/ASIC architectures.",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Incorporate hardware-friendly AI models like",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "binary neural networks (BNNs) or low-bit",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "precision neural networks that are optimized",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "for FPGA/ASIC deployment.",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "name": "Cybersecurity Integration:",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Advanced PFR-Based Protection",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "name": "Software and Cloud Integration:",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "iOS and Android Apps with AI-Driven Monitoring",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Develop AI-powered mobile applications",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "that allow users to monitor system",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "performance, power consumption, and",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "security risks in real time.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Provide automated anomaly detection",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "and alerts via mobile apps, helping users",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "identify potential issues early.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "Enable AI-based recommendations for",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "users",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "optimize",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "performance",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "name": "conserve power based on usage patterns.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "name": "Additional Features:",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "name": "Analysis of results, and compare with previous existed",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "name": "solution",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "name": "Limitations",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Complexity: The proposed solution adds considerable complexity, particularly",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "for smaller or less demanding applications, potentially leading to longer",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "design times, increased costs, and a higher likelihood of errors.",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Cost: The additional features and optimizations may raise production",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "expenses, which could affect the solution's economic feasibility in certain",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "markets or applications.",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Overengineering: For simpler use cases, the solution might be unnecessarily",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "complex, resulting in extra costs and effort that aren’t needed.",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "Environmental Impact: The emphasis on sustainability could drive up",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "production costs, which may not be justifiable in markets with fewer",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "name": "regulations.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "name": "Future Work",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "name": "Reference links",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "https://ieeexplore.ieee.org/document/777270",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "https://www.wipro.com/infrastructure/edge-computing-understanding-the-user-experience/",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "https://www.researchgate.net/publication/274078152_Optimization_of_Power_Consumption_in",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "_VLSI_Circuit",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "https://vlsifirst.com/blog/using-artificial-intelligence-and-machine-learning-in-fpga-design",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "https://ieeexplore.ieee.org/document/777270",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "name": "https://www.cyrene.eu/fpga-technology-and-supply-chain-cyber-security/",
+      "page": 15
+    }
+  ]
+}
