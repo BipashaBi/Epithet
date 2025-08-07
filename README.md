@@ -1,70 +1,79 @@
-# Epithet : An Offline PDF Outline Extractor
+Sure! Here’s your revised README/project description rewritten as a fully standalone GitHub project, with all references to “team”, “Hackathon”, and external challenges removed. It now presents the project as your independent work.
+Epithet: An Offline PDF Outline Extractor
+Epithet is a Python utility designed to automatically extract titles and hierarchical headings from PDF files, and organize them into a structured outline. The workflow is completely offline and fast, providing a JSON summary of any PDF document’s major sections.
 
-A sincere attempt by team Hack-A-Dobe to extract titles and headings from PDF files, organized in a clear outline. This solution is made to meet the Adobe Hackathon Challenge 1A requirements.
+Approach
+Epithet works by:
 
-## Approach
+Parsing PDF text using [PyMuPDF] (fitz).
 
-The script works by:
-1. **Parsing PDF text** using [PyMuPDF](`fitz`).
-2. **Extracting all text spans** with font size, style, and position.
-3. **Determining headings** by comparing font sizes:
-   - Largest font → treated as the **title**
-   - Other fonts larger than the body text → categorized as **H1**, **H2**, or **H3** headings.
-4. Outputs a JSON file containing:
-   - The document title
-   - A list of headings with level and page number
----
+Extracting text spans along with font size, style, and position metadata.
 
-## Models / Libraries Used
+Automatically detecting headings:
 
-- [`PyMuPDF`](https://pypi.org/project/PyMuPDF/) (`fitz`) – for parsing and analyzing PDF text and fonts.
-- `re`, `os`, `json`, `pathlib`, and `logging` – for text cleanup, file handling, and logging.
+The largest font is identified as the title.
 
----
-## Build & Run Instructions
+Other fonts larger than the main body text are categorized as H1, H2, or H3 headings based on size hierarchy.
 
-### Directory Structure
+Outputting a JSON file containing:
 
-├── EPITHET1A/
-|     ├── app
-│          ├── process_pdfs.py
-│          ├── Dockerfile
-│          ├── README.md
-│          ├── sample_dataset/
-│          ├── input/
-│          ├── output/
-|          ├── requirement.txt
-│          └── schema/
-│               └── output_schema.json
+The document’s title
 
-## Install Dependecies
+A list of headings, their hierarchy levels, and page numbers
 
-Install Dependencies
+Dependencies
+PyMuPDF (fitz) – For text and font analysis in PDFs
 
-Make sure you have Python 3.7+ and required packages installed:
+Standard libraries: re, os, json, pathlib, and logging
 
-```bash
+Project Structure
+text
+EPITHET1A/
+│
+├── app/
+│    ├── process_pdfs.py
+│    ├── Dockerfile
+│    ├── README.md
+│    ├── sample_dataset/
+│    ├── input/
+│    ├── output/
+│    ├── requirement.txt
+│    └── schema/
+│         └── output_schema.json
+Installation & Running
+Dependencies
+
+Make sure you have Python 3.7+:
+
+bash
 pip install pymupdf jsonschema
-```
+Input PDFs
 
-## Place Input PDFs
+Place your source PDFs in the input folder.
 
-Put your PDFs into the folder named input
+Execute Script
 
-## Run the script
+From app directory, run:
 
-Use the terminal to run the script with your desired input file : python process_pdfs.py input/your_input_file.pdf
+bash
+python process_pdfs.py input/your_input_file.pdf
+Schema Validation
 
-## Schema Validation
+Output JSON is validated using schema/output_schema.json.
 
-The output is validated against the schema in:  output/output_schema.json
+Performance & Usage
+Fully offline: No internet access required
 
-*This project works completely offline, takes an average time of 4.5 seconds and has processed 10 various kinds of PDFs for verification.*
+Average processing time: 4.5 seconds per PDF (tested on various document types)
 
-## **How to run the code project**
+Output is stored as a structured outline JSON for easy integration or post-processing
 
-docker build -t epithet:challenge1a .
+Docker Usage
+Build the image:
 
-docker pull epithet
+bash
+docker build -t epithet:latest .
+Run the container (replace local paths as needed):
 
-docker run -v "path of Epithet(1A)\input:/app/input" -v "path of Epithet(1A)\output:/app/output" --network none epithet:latest
+bash
+docker run -v "/path/to/EPITHET1A/input:/app/input" -v "/path/to/EPITHET1A/output:/app/output" --network none epithet:latest
