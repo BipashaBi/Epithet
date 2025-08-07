@@ -1,4 +1,3 @@
-Sure! Here’s your revised README/project description rewritten as a fully standalone GitHub project, with all references to “team”, “Hackathon”, and external challenges removed. It now presents the project as your independent work.
 Epithet: An Offline PDF Outline Extractor
 Epithet is a Python utility designed to automatically extract titles and hierarchical headings from PDF files, and organize them into a structured outline. The workflow is completely offline and fast, providing a JSON summary of any PDF document’s major sections.
 
@@ -77,3 +76,4 @@ Run the container (replace local paths as needed):
 
 bash
 docker run -v "/path/to/EPITHET1A/input:/app/input" -v "/path/to/EPITHET1A/output:/app/output" --network none epithet:latest
+
