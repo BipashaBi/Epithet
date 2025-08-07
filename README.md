@@ -1,79 +1,139 @@
-Epithet: An Offline PDF Outline Extractor
-Epithet is a Python utility designed to automatically extract titles and hierarchical headings from PDF files, and organize them into a structured outline. The workflow is completely offline and fast, providing a JSON summary of any PDF document’s major sections.
+Here’s a cleaner, professional, and properly formatted version of your README for the GitHub project **Epithet**:
 
-Approach
-Epithet works by:
+---
 
-Parsing PDF text using [PyMuPDF] (fitz).
+# 📘 Epithet: An Offline PDF Outline Extractor
 
-Extracting text spans along with font size, style, and position metadata.
+**Epithet** is a lightweight Python utility that extracts titles and hierarchical headings from PDF files and organizes them into a structured outline. The entire workflow is performed **offline**, making it fast, secure, and privacy-friendly. It generates a JSON summary of any PDF document’s major sections.
 
-Automatically detecting headings:
+---
 
-The largest font is identified as the title.
+## 🔍 Features
 
-Other fonts larger than the main body text are categorized as H1, H2, or H3 headings based on size hierarchy.
+* 📄 Parses PDF text and analyzes font metadata
+* 🧠 Automatically detects:
 
-Outputting a JSON file containing:
+  * Document title
+  * H1, H2, and H3 headings based on font size hierarchy
+* ⚡ Fully offline with quick processing (\~4.5s per document)
+* ✅ Outputs a structured and schema-validated JSON outline
 
-The document’s title
+---
 
-A list of headings, their hierarchy levels, and page numbers
+## 🧠 How It Works
 
-Dependencies
-PyMuPDF (fitz) – For text and font analysis in PDFs
+Epithet follows these steps:
 
-Standard libraries: re, os, json, pathlib, and logging
+1. **Parse PDF**
+   Uses [PyMuPDF (`fitz`)](https://pymupdf.readthedocs.io/) to extract:
 
-Project Structure
-text
-EPITHET1A/
-│
-├── app/
-│    ├── process_pdfs.py
-│    ├── Dockerfile
-│    ├── README.md
-│    ├── sample_dataset/
-│    ├── input/
-│    ├── output/
-│    ├── requirement.txt
-│    └── schema/
-│         └── output_schema.json
-Installation & Running
-Dependencies
+   * Text spans
+   * Font size, style, and positional data
 
-Make sure you have Python 3.7+:
+2. **Detect Headings**
 
-bash
+   * The largest font is treated as the **title**
+   * Larger-than-body fonts are categorized as:
+
+     * `H1`, `H2`, or `H3` based on size thresholds
+
+3. **Generate Output**
+   Produces a JSON file containing:
+
+   * The **title**
+   * A **list of headings** with:
+
+     * Hierarchical level
+     * Page number
+
+---
+
+## 📦 Dependencies
+
+* [PyMuPDF (fitz)](https://pypi.org/project/PyMuPDF/) – for PDF parsing
+* Standard Python libraries:
+
+  * `re`, `os`, `json`, `pathlib`, `logging`
+
+Install with:
+
+```bash
 pip install pymupdf jsonschema
-Input PDFs
+```
 
-Place your source PDFs in the input folder.
+---
 
-Execute Script
+## 📁 Project Structure
 
-From app directory, run:
+```
+EPITHET1A/
+├── app/
+│   ├── process_pdfs.py
+│   ├── Dockerfile
+│   ├── README.md
+│   ├── requirement.txt
+│   ├── sample_dataset/
+│   ├── input/
+│   ├── output/
+│   └── schema/
+│       └── output_schema.json
+```
 
-bash
-python process_pdfs.py input/your_input_file.pdf
-Schema Validation
+---
 
-Output JSON is validated using schema/output_schema.json.
+## 🚀 Usage
 
-Performance & Usage
-Fully offline: No internet access required
+### 🔧 Local Execution
 
-Average processing time: 4.5 seconds per PDF (tested on various document types)
+1. **Prepare Input**
+   Place PDFs in the `input/` folder.
 
-Output is stored as a structured outline JSON for easy integration or post-processing
+2. **Run Script**
 
-Docker Usage
-Build the image:
+   From the `app/` directory, run:
 
-bash
+   ```bash
+   python process_pdfs.py input/your_input_file.pdf
+   ```
+
+3. **View Output**
+   The structured outline will be saved as a JSON file in the `output/` folder.
+
+### ✅ Schema Validation
+
+All output is validated against:
+`schema/output_schema.json`
+
+---
+
+## 🐳 Docker Usage
+
+### Build the Image
+
+```bash
 docker build -t epithet:latest .
-Run the container (replace local paths as needed):
+```
 
-bash
-docker run -v "/path/to/EPITHET1A/input:/app/input" -v "/path/to/EPITHET1A/output:/app/output" --network none epithet:latest
+### Run the Container
 
+```bash
+docker run \
+  -v "/path/to/EPITHET1A/input:/app/input" \
+  -v "/path/to/EPITHET1A/output:/app/output" \
+  --network none \
+  epithet:latest
+```
+
+> Replace `/path/to/EPITHET1A/` with the actual local path.
+
+---
+
+## 📈 Performance
+
+* ✅ **Offline-only** — No external requests
+* ⚡ **Average Speed** — \~4.5 seconds per PDF
+* 🔗 **Output Format** — Clean JSON for downstream use or integration
+
+---
+
+Let me know if you'd like me to create a badge-enhanced version or a `GIF demo` section.
