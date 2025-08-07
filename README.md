@@ -1,7 +1,3 @@
-Here’s a cleaner, professional, and properly formatted version of your README for the GitHub project **Epithet**:
-
----
-
 # 📘 Epithet: An Offline PDF Outline Extractor
 
 **Epithet** is a lightweight Python utility that extracts titles and hierarchical headings from PDF files and organizes them into a structured outline. The entire workflow is performed **offline**, making it fast, secure, and privacy-friendly. It generates a JSON summary of any PDF document’s major sections.
@@ -124,7 +120,7 @@ docker run \
   epithet:latest
 ```
 
-> Replace `/path/to/EPITHET1A/` with the actual local path.
+> Replace `/path/to/EPITHET/` with the actual local path.
 
 ---
 
@@ -134,6 +130,4 @@ docker run \
 * ⚡ **Average Speed** — \~4.5 seconds per PDF
 * 🔗 **Output Format** — Clean JSON for downstream use or integration
 
----
 
-Let me know if you'd like me to create a badge-enhanced version or a `GIF demo` section.
